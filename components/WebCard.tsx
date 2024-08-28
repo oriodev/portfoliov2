@@ -22,9 +22,10 @@ const WebCard = () => {
           ASAP
         </p>
       </div>
+      <p className="text-sm">PS. CLICK TO COPY EMAIL TO CLIPBOARD.</p>
 
       <button
-        className="bg-dark-blue text-off-white text-xl p-2 pr-5 pl-5 flex gap-5 justify-center"
+        className="bg-dark-blue text-off-white text-xl p-2 pr-5 pl-5 flex gap-5 justify-center rounded-lg transition-transform duration-300 transform hover:scale-105"
         onClick={handleCopy}
       >
         <VscMail size={30} />

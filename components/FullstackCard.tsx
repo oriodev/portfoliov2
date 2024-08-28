@@ -33,10 +33,12 @@ const FullstackCard = () => {
       </h3>
       <div className="flex flex-col gap-2 text-lg">
         <p>
-          I AM A JAVASCRIPT/REACT/NEXT.JS DEVELOPER WITH SELF-TAUGHT, ACADEMIC,
-          AND PROFESSIONAL EXPERIENCE.
+          I AM A <b>JAVASCRIPT/REACT/NEXT.JS</b> DEVELOPER WITH SELF-TAUGHT,
+          ACADEMIC, AND PROFESSIONAL EXPERIENCE.
         </p>
-        <p>ACTIVELY LOOKING FOR FRONTEND, BACKEND OR FULLSTACK POSITIONS.</p>
+        <p>
+          ACTIVELY LOOKING FOR <b>FRONTEND, BACKEND OR FULLSTACK POSITIONS</b>.
+        </p>
         <p>PRETTY COOL.</p>
       </div>
 
@@ -44,22 +46,22 @@ const FullstackCard = () => {
         <VscGithub
           size={50}
           onClick={handleGithub}
-          className="hover:cursor-pointer"
+          className="hover:cursor-pointer transition-transform duration-300 transform hover:scale-105"
         />
         <FaLinkedin
           size={50}
           onClick={handleLinkedin}
-          className="hover:cursor-pointer"
+          className="hover:cursor-pointer transition-transform duration-300 transform hover:scale-105"
         />
         <VscMail
           size={50}
           onClick={handleCopy}
-          className="hover:cursor-pointer"
+          className="hover:cursor-pointer transition-transform duration-300 transform hover:scale-105"
         />
       </div>
 
       <button
-        className="bg-dark-blue text-off-white text-xl p-2 pr-5 pl-5 flex gap-5 justify-center"
+        className="bg-dark-blue text-off-white font-semibold text-lg p-2 pr-5 pl-5 flex gap-5 justify-center rounded-lg transition-transform duration-300 transform hover:scale-105"
         onClick={handleCv}
       >
         CHECK OUT MY CV

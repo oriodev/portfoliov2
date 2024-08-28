@@ -4,9 +4,16 @@ import React from 'react';
 import Image from 'next/image';
 
 const Experience = () => {
-  const handleLinkedin = () => {
+  const handleLinkedinEmployment = () => {
     window.open(
       'https://www.linkedin.com/in/h-orion-daniels-89676729b/details/experience/',
+      '_blank'
+    );
+  };
+
+  const handleLinkedinEducation = () => {
+    window.open(
+      'https://www.linkedin.com/in/h-orion-daniels-89676729b/details/education/',
       '_blank'
     );
   };
@@ -20,8 +27,8 @@ const Experience = () => {
             alt="ttg"
             height={200}
             width={200}
-            className="aspect-square hover:cursor-pointer"
-            onClick={handleLinkedin}
+            className="aspect-square hover:cursor-pointer rounded-lg transition-transform duration-300 transform hover:scale-105"
+            onClick={handleLinkedinEmployment}
           />
         </div>
 
@@ -31,8 +38,8 @@ const Experience = () => {
             alt="cma"
             height={200}
             width={200}
-            className="aspect-square hover:cursor-pointer"
-            onClick={handleLinkedin}
+            className="aspect-square hover:cursor-pointer rounded-lg transition-transform duration-300 transform hover:scale-105"
+            onClick={handleLinkedinEmployment}
           />
         </div>
 
@@ -40,9 +47,10 @@ const Experience = () => {
           <Image
             src="/uob.jpg"
             alt="uob"
-            className="aspect-square"
+            className="aspect-square hover:cursor-pointer rounded-lg transition-transform duration-300 transform hover:scale-105"
             height={200}
             width={200}
+            onClick={handleLinkedinEducation}
           />
         </div>
       </div>
