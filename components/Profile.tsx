@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Experience from './Experience';
 
 const Profile = () => {
   return (
@@ -20,22 +21,10 @@ const Profile = () => {
         </div>
         <div className="flex flex-col justify-between">
           <p className="text-3xl font-light text-center md:text-left">
-            i’m a fullstack engineer and freelance website developer. i love
+            I’m a fullstack engineer and freelance website developer. I love
             building cool things for awesome people.
           </p>
-          {/* <div className="flex gap-1 w-1/2">
-            <div>
-              <Image src="/uob.png" alt="uob" height={200} width={200} />
-            </div>
-
-            <div>
-              <Image src="/cma.jpg" alt="cma" height={200} width={200} />
-            </div>
-
-            <div>
-              <Image src="/ttg.jpg" alt="ttg" height={200} width={200} />
-            </div>
-          </div> */}
+          <Experience />
         </div>
       </div>
     </div>
