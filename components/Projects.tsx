@@ -8,7 +8,7 @@ const Projects = () => {
     <div>
       <div className="w-full h-screen bg-[url('/profile.svg')] bg-cover bg-center flex flex-col-reverse p-5 items-center">
         <div className="w-full overflow-hidden flex justify-center">
-          <div className="flex gap-10 text-off-white p-5 overflow-x-scroll">
+          <div className="flex gap-10 text-off-white p-5 overflow-x-scroll no-scrollbar">
             {webProjects.map((project) => (
               <ProjectCard key={project.title} project={project} />
             ))}
@@ -26,7 +26,7 @@ const Projects = () => {
         </h2>
 
         <div className="w-full overflow-hidden flex justify-center">
-          <div className="flex gap-10 text-off-white p-5 overflow-x-scroll">
+          <div className="flex gap-10 text-off-white p-5 overflow-x-scroll no-scrollbar">
             {fullstackProjects.map((project) => (
               <ProjectCard key={project.title} project={project} />
             ))}

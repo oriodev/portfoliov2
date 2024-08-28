@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={josefinSans.className}>{children}</body>
+      <body className={`${josefinSans.className} no-scrollbar`}>
+        {children}
+      </body>
     </html>
   );
 }
