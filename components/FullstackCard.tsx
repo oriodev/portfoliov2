@@ -12,7 +12,7 @@ const FullstackCard = () => {
   };
 
   const handleCv = () => {
-    window.open('/cv.pdf', '_blank');
+    window.open('/pdfs/cv.pdf', '_blank');
   };
 
   const handleLinkedin = () => {

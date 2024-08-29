@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Josefin_Sans } from '@next/font/google';
+import { Suspense } from 'react';
 
 const josefinSans = Josefin_Sans({ subsets: ['latin'] });
 
@@ -16,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${josefinSans.className} no-scrollbar`}>
+      <body className={`${josefinSans.className} no-scrollbar bg-dark-blue`}>
         {children}
       </body>
     </html>

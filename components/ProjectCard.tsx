@@ -20,7 +20,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
         {project.title}
 
         {project.wip && (
-          <div className="text-dark-blue pr-5 pl-5 font-semibold">wip</div>
+          <div className="text-dark-blue pr-5 pl-5 font-semibold">WIP</div>
         )}
       </div>
     </div>

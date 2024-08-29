@@ -39,3 +39,18 @@ export const webProjects = [
     wip: true
   },
 ]
+
+export const figmaDesigns = [
+  {
+    title: 'Bakery Delivery App',
+    image: '/projects/oribebakingfigma.png',
+    link: '/pdfs/oribebaking.pdf',
+    wip: false
+  },
+  {
+    title: 'ORIODEV.COM',
+    image: '/projects/oriodev.png',
+    link: '/pdfs/oriodev.pdf',
+    wip: false
+  }
+]
