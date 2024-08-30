@@ -3,7 +3,7 @@ export const fullstackProjects = [
     title: 'Baking Delivery App',
     image: '/projects/oribebaking.png',
     link: 'https://github.com/oriodev/oribebaking/tree/main?tab=readme-ov-file',
-    wip: true
+    wip: false
   },
   {
     title: 'Calcifer Game',
