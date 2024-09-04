@@ -11,9 +11,11 @@ const WebCard = () => {
   };
 
   return (
-    <div className="bg-off-white rounded-2xl p-10 flex flex-col gap-5 justify-between lg:w-1/4">
-      <h3 className="text-3xl font-bold text-center">NEED A NEW WEBSITE?</h3>
-      <div className="flex flex-col gap-2 text-lg">
+    <div className="bg-off-white rounded-2xl p-6 sm:p-10 flex flex-col gap-5 justify-between w-full max-w-sm sm:max-w-md lg:max-w-lg xl:max-w-xl mx-auto">
+      <h3 className="text-2xl sm:text-3xl font-bold text-center">
+        NEED A NEW WEBSITE?
+      </h3>
+      <div className="flex flex-col gap-2 text-base sm:text-lg text-center sm:text-left">
         <p>I CAN GET A WEBSITE UP AND RUNNING FOR YOU QUICK AND EASY.</p>
         <p>CURRENTLY TAKING NEW PROJECTS.</p>
         <p>COST DEPENDS ON COMPLEXITY.</p>
@@ -22,14 +24,16 @@ const WebCard = () => {
           ASAP
         </p>
       </div>
-      <p className="text-sm">PS. CLICK TO COPY EMAIL TO CLIPBOARD.</p>
+      <p className="text-xs sm:text-sm text-center">
+        PS. CLICK TO COPY EMAIL TO CLIPBOARD.
+      </p>
 
       <button
-        className="bg-dark-blue text-off-white text-xl p-2 pr-5 pl-5 flex gap-5 justify-center rounded-lg transition-transform duration-300 transform hover:scale-105"
+        className="bg-dark-blue text-off-white text-lg sm:text-xl p-2 sm:p-3 pr-4 sm:pr-6 pl-4 sm:pl-6 flex items-center gap-3 sm:gap-5 justify-center rounded-lg transition-transform duration-300 transform hover:scale-105"
         onClick={handleCopy}
       >
-        <VscMail size={30} />
-        {email}
+        <VscMail size={24} />
+        <span className="truncate">{email}</span>
       </button>
     </div>
   );

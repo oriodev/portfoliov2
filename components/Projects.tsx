@@ -21,7 +21,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <h2 className="text-off-white text-4xl font-bold text-center">
+        <h2 className="text-off-white text-4xl font-bold text-center p-1">
           CHECK OUT THE WEBSITES I HAVE DESIGNED.
         </h2>
       </div>
@@ -29,7 +29,7 @@ const Projects = () => {
       {/* FIGMA DESIGNS */}
 
       <div className="w-full h-full bg-dark-blue flex flex-col items-center pt-20">
-        <h2 className="text-off-white text-4xl font-bold text-center">
+        <h2 className="text-off-white text-4xl font-bold text-center p-1">
           CHECK OUT MY FIGMA MOCKUPS.
         </h2>
 
@@ -45,7 +45,7 @@ const Projects = () => {
       {/* FULL STACK APPS */}
 
       <div className="w-full h-screen bg-[url('/hireme.svg')] bg-cover bg-center flex flex-col items-center pt-20">
-        <h2 className="text-off-white text-4xl font-bold text-center">
+        <h2 className="text-off-white text-4xl font-bold text-center p-1">
           CHECK OUT MY FULL STACK WEB APPLICATIONS.
         </h2>
 
